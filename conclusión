@@ -1,0 +1,55 @@
+CONCLUSION
+
+El proyecto de detección de objetos compacto y económico mediante la placa ESP-CAM 
+(ESP32-CAM) no solo cumplió su objetivo principal, sino que se erigió como una demostración 
+práctica y exitosa de la integración de conocimientos multidisciplinarios en el campo de la 
+electrónica, la programación de sistemas embebidos y el aprendizaje automático Edge 
+(en el dispositivo). La finalidad de desarrollar y probar la viabilidad de este sistema se 
+alcanzó plenamente, validando la ESP32-CAM como una plataforma robusta y accesible para la 
+visión artificial de bajo costo.
+
+El trabajo sirvió como una prueba de fuego para los conocimientos adquiridos en la materia, 
+obligando a la implementación práctica de conceptos que abarcan desde la programación en el 
+entorno Arduino hasta la integración eléctrica y el entrenamiento de modelos de Machine 
+Learning. La estrategia de utilizar la plataforma Edge Impulse se reveló como un acierto, 
+facilitando el proceso de entrenamiento y optimización de un modelo de clasificación para el 
+hardware limitado de la ESP-CAM. La consecución de porcentajes de reconocimiento entre 
+el 96% y el 98% tras el entrenamiento es un indicador clave de la calidad del modelo 
+generado y la efectividad de la recolección de datos (al menos 50 fotografías por objeto 
+desde múltiples ángulos).
+
+Uno de los logros más significativos fue la integración eléctrica y funcional del sistema.
+
+No se trató simplemente de un ejercicio de programación de cámara, sino de la creación de un 
+sistema reactivo. La capacidad de la ESP-CAM para encender un LED o mostrar un mensaje en una 
+pantalla OLED (Display) como respuesta directa a la detección de un objeto prueba el dominio 
+de los principios de interfaz de hardware (interfaz I2C para el display) y el manejo de 
+periféricos (GPIO). La implementación de librerías específicas como ADAFRUIT GFX fue 
+fundamental para la correcta visualización de los mensajes de reconocimiento, demostrando la 
+necesidad de gestionar dependencias y librerías externas.
+
+El proceso de instalación y configuración del entorno de desarrollo (Arduino IDE) expuso un 
+aprendizaje crucial sobre la realidad de trabajar con hardware y software de código abierto. 
+
+La necesidad de solucionar problemas de comunicación (puertos COM), ajustar versiones de 
+software y gestionar correctamente las librerías (zip library) subraya que la programación 
+de sistemas embebidos requiere no solo conocimiento de código, sino también una habilidad 
+avanzada en la depuración de la cadena de herramientas (toolchain). Los desafíos con la carga 
+de librerías y la verificación inicial del funcionamiento de la cámara (mediante la 
+visualización de la IP en el navegador) no fueron meros pasos, sino hitos de validación que 
+aseguraron que la base del proyecto fuera sólida.
+
+El éxito de la generación e instalación de la librería de Edge Impulse y su posterior 
+demostración de funcionamiento con la ESP-CAM, donde el Serial Monitor mostraba el estado de 
+no-reconocimiento hasta que el objeto entrenado era presentado, valida la cadena completa del 
+proceso: desde la adquisición de datos y el entrenamiento en la nube hasta el despliegue 
+del modelo binario en el dispositivo final.
+
+En conclusión, este proyecto ha trascendido la mera teoría para establecer un sistema 
+funcional, costo-efectivo y eficiente de detección de objetos. Se ha comprobado la capacidad 
+del equipo para integrar el Machine Learning con la ingeniería de hardware, resultando en una 
+solución práctica que pone a prueba la habilidad de los desarrolladores para superar retos 
+técnicos específicos del hardware de bajo consumo. El resultado es un sistema que no solo 
+"ve" y clasifica, sino que reacciona de forma tangible a su entorno, sentando una base sólida 
+para futuros proyectos de Internet de las Cosas (IoT) con capacidades de visión artificial 
+integrada.
