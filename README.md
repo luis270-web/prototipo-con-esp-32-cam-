@@ -1,2 +1,0 @@
-# prototipo-con-esp-32-cam-
-desarrollo de un prototipo con una esp 32 cam entrenado con dos objetos diferentes que al momento de reconocer uno mandar su nombre a través de una pantalla oled, prendiendo un led y que, si detecta un segundo objeto prendera un led diferente a menos que no detecte nada solo prendera un led azul, todo esto documentado en este repositorio. Se documentará como se hizo, donde se subieron las fotos para crear la librería, la instalación del ide Arduino la verificación de la esp 32 cam instalación de librería y funcionamiento.
