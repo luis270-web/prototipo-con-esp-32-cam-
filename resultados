@@ -1,0 +1,3 @@
+resultados cuando la camara no detecta nada un led se prende en rojo y en la pantalla dise obejto no detectado
+al acercar una tarjeta y detectarla con la camara muestra en la pantalla el nombre de la trajeta y prende un led azul (toga)
+al detectar otra tarjeta diferente la muestra en pantalla el nombre de la trajeta(lufy) y prende un led verde
