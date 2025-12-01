@@ -1,6 +1,0 @@
-RESUMEN
-
-En resumen este proyecto tiene como objetivo desarrollar y demostrar la viabilidad de un sistema de detección de objetos compacto y económico utilizando la placa ESP-CAM (ESP32-CAM). El trabajo pondrá a prueba los conocimientos de la materia mediante la implementación de este sistema.
-Entrenamiento del Modelo: Se utilizará la plataforma Edge Impulse para entrenar la ESP-CAM, permitiéndole detectar y clasificar objetos específicos.
-Integración Eléctrica y Funcional: El sistema integra componentes de eléctrica/circuitos para reaccionar ante el reconocimiento. Al detectar un objeto, la ESP-CAM debe encenderse
-
